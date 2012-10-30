@@ -513,7 +513,7 @@ For a description of :term:`arbiters <arbiter>` and their purpose in
 To prevent tied :term:`elections <election>`, do not add an arbiter to a
 set if the set already has an odd number of voting members.
 
-Because arbiters do not hold a copies of collection data, they have minimal
+Because arbiters do not hold copies of collection data, they have minimal
 resource requirements and do not require dedicated hardware.
 
 1. Create a data directory for the arbiter. The :program:`mongod` uses
